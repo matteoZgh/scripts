@@ -13,3 +13,7 @@ fcitx-autostart
 killall v2ray
 sleep 1
 qv2ray &
+
+killall kdeconnectd
+sleep 1
+/usr/lib/kdeconnectd &
