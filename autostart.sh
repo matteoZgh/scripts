@@ -3,8 +3,9 @@
 pkill wp-change
 /home/matteo/scripts/wp-change.sh &
 
-pkill dwmbar
-/home/matteo/scripts/dwm-bar/dwmbar.sh &
+pkill dwm_bar
+echo "💻 MEM ---Mi/-.-Gi CPU --.--%" > /home/matteo/.resources
+/home/matteo/scripts/dwm-bar/dwm_bar.sh &
 
 picom -b
 

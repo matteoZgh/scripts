@@ -10,4 +10,3 @@ else
 	/usr/bin/amixer set Center toggle
 	/usr/bin/amixer set LFE toggle
 fi
-/home/matteo/scripts/dwm-bar/dwm_bar.sh
